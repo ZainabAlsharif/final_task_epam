@@ -26,5 +26,9 @@ replay_pid*
 # Maven Build folder
 target/
 
-# IntelliJ IDEA Settings 
+# IntelliJ IDEA Settings
 .idea/
+
+# Allure Results & Reports
+allure-results/
+allure-report/
