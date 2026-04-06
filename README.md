@@ -23,7 +23,7 @@ The project follows a standard Maven/Cucumber directory structure:
 ## ⚙️ How to Run the Tests
 
 ### 1. Running via TestNG 
-To run tests, right-click the `testng.xml` file in the root directory and select **Run**.
+To run tests, right-click the `TestRunner.java` file in the runners folder inside test and select **Run**.
 
 ### 2. Running via Maven Command Line
 You can also run specific browsers using Maven properties:
@@ -37,5 +37,10 @@ After the tests have finished executing, follow these steps to view the graphica
 
 1. Open your terminal in the project root.
 2. Run the following command to generate and open the report:
+    ```bash
+   allure serve allure-results
+   ```
+   or
    ```bash
    mvn allure:serve
+  
